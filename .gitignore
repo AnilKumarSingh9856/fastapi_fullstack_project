@@ -1,15 +1,15 @@
-# Python / FastAPI ignores
+# Python
 __pycache__
-venv/
-virtualenvironment/
 *.pyc
+virtualenvironment/
+venv/
 .env
 .pytest_cache/
-
-# Database
 *.sqlite3
-*.db
 
-# Ignore the frontend node_modules (just in case)
-frontend/node_modules
-frontend/.next
+# Node / Frontend
+node_modules/
+.next/
+build/
+dist/
+.DS_Store
